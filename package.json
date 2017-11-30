@@ -1,10 +1,13 @@
 {
-  "name": "scraper",
+  "name": "@hollowverse/scraper",
   "version": "1.0.0",
   "main": "dist/index.js",
   "repository": "git@github.com:hollowverse/scraper.git",
   "author": "Muhammad Fawwaz Orabi <mfawwaz93@gmail.com>",
   "license": "Unlicense",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "lint": "run-p validate-filenames check-ts lint-js lint-ts",
     "pretest": "yarn lint",
